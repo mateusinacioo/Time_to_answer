@@ -1,0 +1,36 @@
+make[1]: Entrando no diretório '/home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ext/sqlite3/tmp/x86_64-linux-gnu/ports/sqlite3/3.41.0/sqlite-autoconf-3410000'
+ /usr/bin/mkdir -p '/home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/lib'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libsqlite3.la '/home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/lib'
+libtool: install: /usr/bin/install -c .libs/libsqlite3.lai /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/lib/libsqlite3.la
+libtool: install: /usr/bin/install -c .libs/libsqlite3.a /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/lib/libsqlite3.a
+libtool: install: chmod 644 /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/lib/libsqlite3.a
+libtool: install: x86_64-linux-gnu-ranlib /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/lib/libsqlite3.a
+libtool: finish: PATH="/home/mateus/.asdf/installs/ruby/2.5.0/bin:/home/mateus/.asdf/shims:/home/mateus/.asdf/bin:/home/mateus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/bin'
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c sqlite3 '/home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/bin'
+libtool: install: /usr/bin/install -c sqlite3 /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/bin/sqlite3
+ /usr/bin/mkdir -p '/home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/include'
+ /usr/bin/install -c -m 644 sqlite3.h sqlite3ext.h '/home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/include'
+ /usr/bin/mkdir -p '/home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/share/man/man1'
+ /usr/bin/install -c -m 644 sqlite3.1 '/home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/share/man/man1'
+ /usr/bin/mkdir -p '/home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/lib/pkgconfig'
+ /usr/bin/install -c -m 644 sqlite3.pc '/home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/lib/pkgconfig'
+make[1]: Saindo do diretório '/home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ext/sqlite3/tmp/x86_64-linux-gnu/ports/sqlite3/3.41.0/sqlite-autoconf-3410000'

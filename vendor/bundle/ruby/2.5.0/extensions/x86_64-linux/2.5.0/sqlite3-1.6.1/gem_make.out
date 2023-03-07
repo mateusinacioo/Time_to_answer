@@ -1,0 +1,58 @@
+current directory: /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ext/sqlite3
+/home/mateus/.asdf/installs/ruby/2.5.0/bin/ruby -I /home/mateus/.asdf/installs/ruby/2.5.0/lib/ruby/site_ruby/2.5.0 extconf.rb
+Building sqlite3-ruby using packaged sqlite3.
+Extracting sqlite-autoconf-3410000.tar.gz into tmp/x86_64-linux-gnu/ports/sqlite3/3.41.0... OK
+Running 'configure' for sqlite3 3.41.0... OK
+Running 'compile' for sqlite3 3.41.0... OK
+Running 'install' for sqlite3 3.41.0... OK
+Activating sqlite3 3.41.0 (from /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0)...
+checking for whether -L/home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ports/x86_64-linux-gnu/sqlite3/3.41.0/lib is accepted as LDFLAGS... yes
+checking for whether -lsqlite3 is accepted as LDFLAGS... yes
+checking for whether -lz is accepted as LDFLAGS... yes
+checking for whether -lm is accepted as LDFLAGS... yes
+checking for whether -ldl is accepted as LDFLAGS... yes
+checking for whether -lpthread is accepted as LDFLAGS... yes
+checking for whether -DTAINTING_SUPPORT is accepted as CPPFLAGS... yes
+checking for whether -fvisibility=hidden is accepted as CFLAGS... yes
+checking for sqlite3.h... yes
+checking for sqlite3_libversion_number() in -lsqlite3... yes
+checking for rb_proc_arity()... yes
+checking for rb_integer_pack()... yes
+checking for sqlite3_initialize()... yes
+checking for sqlite3_backup_init()... yes
+checking for sqlite3_column_database_name()... no
+checking for sqlite3_enable_load_extension()... yes
+checking for sqlite3_load_extension()... yes
+checking for sqlite3_open_v2()... yes
+checking for sqlite3_prepare_v2()... yes
+checking for sqlite3_int64 in sqlite3.h... yes
+checking for sqlite3_uint64 in sqlite3.h... yes
+creating Makefile
+
+current directory: /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ext/sqlite3
+make DESTDIR\= sitearchdir\=./.gem.20230307-44055-1hcsqjs sitelibdir\=./.gem.20230307-44055-1hcsqjs clean
+
+current directory: /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ext/sqlite3
+make DESTDIR\= sitearchdir\=./.gem.20230307-44055-1hcsqjs sitelibdir\=./.gem.20230307-44055-1hcsqjs
+compiling aggregator.c
+compiling backup.c
+compiling database.c
+database.c: In function ‘exec_batch’:
+database.c:747:57: warning: cast between incompatible function types from ‘int (*)(VALUE,  int,  char **, char **)’ {aka ‘int (*)(long unsigned int,  int,  char **, char **)’} to ‘int (*)(void *, int,  char **, char **)’ [-Wcast-function-type]
+  747 |     status = sqlite3_exec(ctx->db, StringValuePtr(sql), (sqlite3_callback)hash_callback_function, (void*)callback_ary, &errMsg);
+      |                                                         ^
+database.c:749:57: warning: cast between incompatible function types from ‘int (*)(VALUE,  int,  char **, char **)’ {aka ‘int (*)(long unsigned int,  int,  char **, char **)’} to ‘int (*)(void *, int,  char **, char **)’ [-Wcast-function-type]
+  749 |     status = sqlite3_exec(ctx->db, StringValuePtr(sql), (sqlite3_callback)regular_callback_function, (void*)callback_ary, &errMsg);
+      |                                                         ^
+database.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling exception.c
+compiling sqlite3.c
+compiling statement.c
+linking shared-object sqlite3/sqlite3_native.so
+
+current directory: /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/sqlite3-1.6.1/ext/sqlite3
+make DESTDIR\= sitearchdir\=./.gem.20230307-44055-1hcsqjs sitelibdir\=./.gem.20230307-44055-1hcsqjs install
+/usr/bin/install -c -m 0755 sqlite3_native.so ./.gem.20230307-44055-1hcsqjs/sqlite3

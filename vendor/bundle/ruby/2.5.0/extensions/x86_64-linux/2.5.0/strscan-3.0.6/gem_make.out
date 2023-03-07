@@ -1,0 +1,24 @@
+current directory: /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/strscan-3.0.6/ext/strscan
+/home/mateus/.asdf/installs/ruby/2.5.0/bin/ruby -I /home/mateus/.asdf/installs/ruby/2.5.0/lib/ruby/site_ruby/2.5.0 extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+creating Makefile
+
+current directory: /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/strscan-3.0.6/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20230307-44055-1xkuasn sitelibdir\=./.gem.20230307-44055-1xkuasn clean
+
+current directory: /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/strscan-3.0.6/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20230307-44055-1xkuasn sitelibdir\=./.gem.20230307-44055-1xkuasn
+compiling strscan.c
+strscan.c: In function ‘strscan_named_captures’:
+strscan.c:1502:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+ 1502 |     named_captures_data data;
+      |     ^~~~~~~~~~~~~~~~~~~
+strscan.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+linking shared-object strscan.so
+
+current directory: /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/strscan-3.0.6/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20230307-44055-1xkuasn sitelibdir\=./.gem.20230307-44055-1xkuasn install
+/usr/bin/install -c -m 0755 strscan.so ./.gem.20230307-44055-1xkuasn

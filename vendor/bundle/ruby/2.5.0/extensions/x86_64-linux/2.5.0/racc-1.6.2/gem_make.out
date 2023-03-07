@@ -1,0 +1,17 @@
+current directory: /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/racc-1.6.2/ext/racc/cparse
+/home/mateus/.asdf/installs/ruby/2.5.0/bin/ruby -I /home/mateus/.asdf/installs/ruby/2.5.0/lib/ruby/site_ruby/2.5.0 extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230307-44055-16wcp4q sitelibdir\=./.gem.20230307-44055-16wcp4q clean
+
+current directory: /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230307-44055-16wcp4q sitelibdir\=./.gem.20230307-44055-16wcp4q
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/mateus/projetos/time_to_answer/vendor/bundle/ruby/2.5.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230307-44055-16wcp4q sitelibdir\=./.gem.20230307-44055-16wcp4q install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20230307-44055-16wcp4q/racc
