@@ -40,9 +40,10 @@ gem 'devise'
 gem 'rails-i18n', '~> 5.1'
 gem 'tty-spinner'
 gem 'faker'
-gem 'pry-rails'
+# gem 'pry-rails'
 gem 'kaminari'
 gem 'kaminari-i18n'
+gem "cocoon"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -56,6 +57,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'awesome_print'
 end
 
 group :test do
